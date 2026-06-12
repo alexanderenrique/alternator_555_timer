@@ -2522,7 +2522,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "Smoothing capacitor"
 			(at 123.19 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2914,7 +2914,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "Smoothing Capacitor"
 			(at 130.81 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2996,7 +2996,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "Pulls Trig to ground momenterily"
 			(at 110.49 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3045,8 +3045,9 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SZ1SMB15AT3G"
 			(at 185.42 113.3474 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3067,7 +3068,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" ""
 			(at 182.88 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3078,7 +3079,7 @@
 				)
 			)
 		)
-		(property "Description" "30V 3A Schottky Diode, SMA"
+		(property "Description" "Gate/Drain TVS protection"
 			(at 182.88 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3305,7 +3306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_Pin:12_AWG_TH_Alex"
 			(at 71.12 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3327,7 +3328,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Wire Mounting hole"
 			(at 71.12 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3406,7 +3407,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "Resistor for RC timing circuit"
 			(at 97.79 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3735,7 +3736,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "Raises trig up after initial start"
 			(at 110.49 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3783,8 +3784,9 @@
 				)
 			)
 		)
-		(property "Value" "BZV55B15"
+		(property "Value" "SZ1SMB15AT3G"
 			(at 135.89 52.07 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3804,7 +3806,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+		(property "Datasheet" ""
 			(at 135.89 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3815,7 +3817,7 @@
 				)
 			)
 		)
-		(property "Description" "15V, 500mW, 2%, Zener diode, MiniMELF"
+		(property "Description" "Supply voltage TVS"
 			(at 135.89 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3897,7 +3899,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "Electrolytic capcitor for RC timing circuit"
 			(at 97.79 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3979,7 +3981,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Chassis and circuit ground"
 			(at 130.81 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4024,8 +4026,9 @@
 				)
 			)
 		)
-		(property "Value" "NE555P"
+		(property "Value" "TLC555CP"
 			(at 138.43 90.0998 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4045,7 +4048,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne555.pdf"
+		(property "Datasheet" ""
 			(at 125.73 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4056,7 +4059,7 @@
 				)
 			)
 		)
-		(property "Description" "Precision Timers, 555 compatible, PDIP-8"
+		(property "Description" "CMOS 555 compatible, PDIP-8"
 			(at 125.73 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4289,7 +4292,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k (pulldown)"
+		(property "Value" "100k"
 			(at 171.45 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4322,7 +4325,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "MOSFET pull-down resistor"
 			(at 168.91 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4451,6 +4454,7 @@
 		)
 		(property "Value" "Fuse_Small"
 			(at 78.74 66.0399 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4482,7 +4486,7 @@
 				)
 			)
 		)
-		(property "Description" "Fuse, small symbol"
+		(property "Description" "Fuse, 10A"
 			(at 77.47 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4562,7 +4566,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "Resistor to minimize line ringing"
 			(at 151.13 93.98 0)
 			(hide yes)
 			(show_name no)
