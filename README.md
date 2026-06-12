@@ -7,4 +7,5 @@ A small analog delay board for classic cars with upgraded alternators. A CMOS 55
 ## What's here
 
 - KiCad schematic and PCB (`555_I_delay.kicad_*`)
-- Gerber and drill files for manufacturing
+- `BOM.csv` — bill of materials
+- `555_v1.zip` — zipped gerbers and drill files for your PCB manufacturer

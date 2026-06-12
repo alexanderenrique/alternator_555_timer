@@ -2,4 +2,6 @@
 .history/
 *-backups/
 *.zip
+!555_v1.zip
+*.lck
 fp-info-cache
