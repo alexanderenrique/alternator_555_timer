@@ -4,4 +4,5 @@
 *.zip
 !555_v1.zip
 *.lck
+*.kicad_prl
 fp-info-cache
